@@ -1,0 +1,1370 @@
+<!DOCTYPE html>
+
+
+
+  
+
+<html class="theme-next mist use-motion" lang="zh-Hans">
+<!--浏览器搞笑标题-->
+<script type="text/javascript" src="/js/src/crash_cheat.js"></script>
+<html class="theme-next mist use-motion" lang="zh-Hans">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="theme-color" content="#222">
+
+
+
+  
+  
+    
+    
+  <script src="/lib/pace/pace.min.js?v=1.0.2"></script>
+  <link href="/lib/pace/pace-theme-flash.min.css?v=1.0.2" rel="stylesheet">
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css" />
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
+
+
+
+
+
+  <meta name="keywords" content="Hexo, NexT" />
+
+
+
+
+
+  <link rel="alternate" href="/atom.xml" title="晴天的博客" type="application/atom+xml" />
+
+
+
+
+
+
+<meta name="description" content="####1、必读经典深入理解计算机系统（原书第3版）9.7分 2383人评价本书的最大优点是为程序员描述计算机系统的实现细节，帮助其在大脑中构造一个层次型的计算机系统，从最底层的数据在内存中的表示到流水线指令的构成，到虚拟存储器，到编译系统，到动态加载库，到最后的用户态应用。现代操作系统（第3版） 8.9分 717人评价本书适合作为高等院校计算机专业操作系统课程教材，也是设计、开发操作系统的重要参">
+<meta property="og:type" content="website">
+<meta property="og:title" content="图书">
+<meta property="og:url" content="http://www.ly520.xyz/books/index.html">
+<meta property="og:site_name" content="晴天的博客">
+<meta property="og:description" content="####1、必读经典深入理解计算机系统（原书第3版）9.7分 2383人评价本书的最大优点是为程序员描述计算机系统的实现细节，帮助其在大脑中构造一个层次型的计算机系统，从最底层的数据在内存中的表示到流水线指令的构成，到虚拟存储器，到编译系统，到动态加载库，到最后的用户态应用。现代操作系统（第3版） 8.9分 717人评价本书适合作为高等院校计算机专业操作系统课程教材，也是设计、开发操作系统的重要参">
+<meta property="og:image" content="https://pic2.zhimg.com/v2-92031e32350a40df2f34417ab7f64cf9_b.jpg">
+<meta property="og:image" content="https://pic2.zhimg.com/v2-f46cf9d8e9a0135cb5b932806a8f047d_b.jpg">
+<meta property="og:image" content="https://pic2.zhimg.com/v2-4b958acd5e54be7c108ad6c8931421fd_b.jpg">
+<meta property="og:image" content="https://pic3.zhimg.com/v2-a0557270d3948ebd337c63ffe8764c12_b.jpg">
+<meta property="og:image" content="https://pic3.zhimg.com/v2-3ae5b6bf0f7f696a95d5a010bee5ade6_b.jpg">
+<meta property="og:image" content="https://pic4.zhimg.com/v2-7e646ac18a6473a10db53c4e9c9428df_b.jpg">
+<meta property="article:published_time" content="2020-03-06T07:00:05.000Z">
+<meta property="article:modified_time" content="2020-03-12T05:35:59.116Z">
+<meta property="article:author" content="晴天">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://pic2.zhimg.com/v2-92031e32350a40df2f34417ab7f64cf9_b.jpg">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Mist',
+    version: '5.1.4',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":true,"onmobile":true},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://www.ly520.xyz/books/"/>
+
+
+
+
+  <title>图书 | 晴天的博客</title>
+  
+
+
+
+
+
+
+
+
+<meta name="generator" content="Hexo 4.2.0"></head>
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">晴天的博客</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle"></p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-battery-full"></i> <br />
+            
+            关于
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-books">
+          <a href="/books/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-book"></i> <br />
+            
+            读书
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-links">
+          <a href="/links/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-feed"></i> <br />
+            
+            导航
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tools">
+          <a href="/tools/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-folder-open"></i> <br />
+            
+            实用工具
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-top">
+          <a href="/top/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-paper-plane"></i> <br />
+            
+            排行
+          </a>
+        </li>
+      
+
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
+            
+            搜索
+          </a>
+        </li>
+      
+    </ul>
+  
+
+  
+    <div class="site-search">
+      
+  <div class="popup search-popup local-search-popup">
+  <div class="local-search-header clearfix">
+    <span class="search-icon">
+      <i class="fa fa-search"></i>
+    </span>
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+    <div class="local-search-input-wrapper">
+      <input autocomplete="off"
+             placeholder="搜索..." spellcheck="false"
+             type="text" id="local-search-input">
+    </div>
+  </div>
+  <div id="local-search-result"></div>
+</div>
+
+
+
+    </div>
+  
+</nav>
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+    
+    
+    <div class="post-block page">
+      <header class="post-header">
+
+	<h1 class="post-title" itemprop="name headline">图书</h1>
+
+
+
+</header>
+
+      
+      
+      
+      <div class="post-body">
+        
+        
+          <p>####1、必读经典深入理解计算机系统（原书第3版）<br>9.7分 2383人评价本书的最大优点是为程序员描述计算机系统的实现细节，帮助其在大脑中构造一个层次型的计算机系统，从最底层的数据在内存中的表示到流水线指令的构成，到虚拟存储器，到编译系统，到动态加载库，到最后的用户态应用。<br><img src="https://pic3.zhimg.com/v2-1cd7c01ed76f7848f8e268c85ea4f246_b.jpg" data-rawwidth="696" data-rawheight="281" data-size="normal" data-caption="" data-default-watermark-src="https://pic2.zhimg.com/v2-92031e32350a40df2f34417ab7f64cf9_b.jpg" class="origin_image zh-lightbox-thumb" width="696" data-original="https://pic3.zhimg.com/v2-1cd7c01ed76f7848f8e268c85ea4f246_r.jpg"/>现代操作系统（第3版） 8.9分 717人评价本书适合作为高等院校计算机专业操作系统课程教材，也是设计、开发操作系统的重要参考书。<img src="https://pic1.zhimg.com/v2-91bdbc96119ce028e8a9d8777b087058_b.jpg" data-rawwidth="686" data-rawheight="257" data-size="normal" data-caption="" data-default-watermark-src="https://pic2.zhimg.com/v2-f46cf9d8e9a0135cb5b932806a8f047d_b.jpg" class="origin_image zh-lightbox-thumb" width="686" data-original="https://pic1.zhimg.com/v2-91bdbc96119ce028e8a9d8777b087058_r.jpg"/>计算机程序的构造和解释 : 原书第2版 9.5分 2229人评价美国麻省理工学院(MIT)多年使用的教材。<img src="https://pic4.zhimg.com/v2-e1549f06c7fb735bb30ee7eaeb1c9347_b.jpg" data-rawwidth="679" data-rawheight="330" data-size="normal" data-caption="" data-default-watermark-src="https://pic2.zhimg.com/v2-4b958acd5e54be7c108ad6c8931421fd_b.jpg" class="origin_image zh-lightbox-thumb" width="679" data-original="https://pic4.zhimg.com/v2-e1549f06c7fb735bb30ee7eaeb1c9347_r.jpg"/>计算机网络（第4版） : 自顶向下方法 8.8分 734人评价本书采用了独创的自顶向下方法，即从应用层开始沿协议栈向下讲解计算机网络的基本原理，强调应用层范例和应用编程接口，内容深入浅出，注重教学方法，理论与实践相结合。<img src="https://pic4.zhimg.com/v2-50f3f23e2b46c38d29a3c88ccdd76ad3_b.jpg" data-rawwidth="668" data-rawheight="287" data-size="normal" data-caption="" data-default-watermark-src="https://pic3.zhimg.com/v2-a0557270d3948ebd337c63ffe8764c12_b.jpg" class="origin_image zh-lightbox-thumb" width="668" data-original="https://pic4.zhimg.com/v2-50f3f23e2b46c38d29a3c88ccdd76ad3_r.jpg"/>数据库系统概念 : 第五版 8.2分 417人评价本书是数据库系统方面的经典教材之一。国际上许多著名大学包括斯坦福大学、耶鲁大学、得克萨斯大学、康奈尔大学、伊利诺伊大学、印度理工学院等都采用本书作为教科书。<img src="https://pic2.zhimg.com/v2-e599d9fb75802746efd87759aa6fbb85_b.jpg" data-rawwidth="667" data-rawheight="300" data-size="normal" data-caption="" data-default-watermark-src="https://pic3.zhimg.com/v2-3ae5b6bf0f7f696a95d5a010bee5ade6_b.jpg" class="origin_image zh-lightbox-thumb" width="667" data-original="https://pic2.zhimg.com/v2-e599d9fb75802746efd87759aa6fbb85_r.jpg"/>设计模式 : 可复用面向对象软件的基础 9.1分 2805人评价设计模式有多重要，等你工作的时候就明白了。 这本书结合设计实作例从面向对象的设计中精选出23个设计模式，总结了面向对象设计中最有价值的经验，并且用简洁可复用的形式表达出来。<img src="https://pic3.zhimg.com/v2-0baae6a2f31e63d03c4d88b47dafbaea_b.jpg" data-rawwidth="667" data-rawheight="326" data-size="normal" data-caption="" data-default-watermark-src="https://pic4.zhimg.com/v2-7e646ac18a6473a10db53c4e9c9428df_b.jpg" class="origin_image zh-lightbox-thumb" width="667" data-original="https://pic3.zhimg.com/v2-0baae6a2f31e63d03c4d88b47dafbaea_r.jpg"/></p>
+<p>####2、C/C++</p>
+<ol>
+<li><p>The Design and Evolution of C++ 8.5分首先肯定要读一读Bjarne Stroustrup的The Design and Evolution of C++，了解一下这个语言的历史。接下来就可以看别的书了，但要不停地回头看这本书，看到你不断地学到的新技术是怎么样一点点地被接纳到这个语言中去的。</p>
+</li>
+<li><p>C++ Primer 9.3分第一本书因人而异，基础好一些的，可以看Stanley B. Lippman的C++ Primer，这本书非常地巨大，你打星号的部分可以不要看。基础不太好的，可以看Stanley B.Lippman的Essential C++，这本书份量要轻得多，不过四个C++的范型都讲了，而且讲得非常清楚。</p>
+</li>
+<li><p>Thinking in C++ 9.1分第二本书，就应该是Bruce Eckel写的、候捷译的Thinking in C++，这本书技术运用的非常高的境界，但是语言非常平实，只要认真地读，即使基础不行，也一定可以懂。4 Effective C++和More Effective C++ 9.5分第三本应该静下心来看看Scott Meyers的Effective C++和More Effective C++，好好地整理一下，在程序设计中应该有哪些注意的事项。可以指导项目运作了，可以编写一切你想做的程序了，可以指出别人看起来不错的代码的大小问题了<br>####3、JavaJava基础</p>
+</li>
+<li><p>Java编程思想(第4版) 9.1分本书赢得了全球程序员的广泛赞誉，即使是最晦涩的概念，在Bruce Eckel的文字亲和力和小而直接的编程示例面前也会化解于无形。从Java的基础语法到最高级特性（深入的面向对象概念、多线程、自动项目构建、单元测试和调试等），本书都能逐步指导你轻松掌握.</p>
+</li>
+<li><p>Java核心技术 卷Ⅰ 基础知识(第8版) 8.7分这本书在Java领域是和Java编程思想齐名的一本书，很多知识点都讲的特别细，我初次看的时候发现课上好多没讲的基础知识这本书上都提到了，非常有助于你练好扎实的基础知识。Java中级1 大话设计模式 8.3分设计模式体现的是一种思想，思想是指导行为的一切。理解和掌握设计模式，记住23种或者更多的设计场景和解决策略是不够的，更要接受一种思想的熏陶和洗礼。本书通过故事讲述程序如何设计。希望能给渴望了解面向对象程序设计的初学者及困惑、无法复用的代码编程体验者一些好的建议和提示。2 分布式Java应用基础与实践 7.8分本书介绍分布式Java应用涉及的知识点，分为基于Java实现网络通信、RPC；基于SOA实现大型分布式Java应用；编写高性能Java应用；构建高可用、可伸缩的系统四个部分，共七章内容。</p>
+</li>
+<li><p>Java并发编程实践 8.9分《JAVA并发编程实践》随着多核处理器的普及，使用并发成为构建高性能应用程序的关键。Java 5以及6在开发并发程序中取得了显著的进步，提高了Java虚拟机的性能以及并发类的可伸缩性，并加入了丰富的新并发构建块。在《JAVA并发编程实践》中，这些便利工具的创造者不仅解释了它们究竟如何工作、如何使用，还阐释了创造它们的原因，及其背后的设计模式。Java高级1大型网站技术架构：核心原理与案例分析 7.9分该书通过梳理大型网站技术发展历程，剖析大型网站技术架构模式，深入讲述大型互联网架构设计的核心原理。2 代码整洁之道 9.1分这本书重在对细节的关注。书的编排极其合理，从最小的点开始一点点往大处讲。感觉对刚开始工作的小朋友们，代码看得、写得还不够多，读设计模式之类的书可能还没什么体会。但这本代码细节的书，却是能立竿见影，直接用到工作中去的。<br>####4、Python</p>
+</li>
+<li><p>Python核心编程(第二版) </p>
+</li>
+<li><p>7分本书是经典的Python[1] 指导书，在第一版的基础上进行了全面升级。全书分为两个部分：第1部分占据了大约三分之二的篇幅，阐释这门语言的“核心”内容，包括基本的概念和语句、语法和风格、Python对象、数字类型、序列类型、映射和集合类型、条件和循环、文件和输入/输出、错误和异常、函数和函数式编程、模块、面向对象编程、执行环境等内容：第2部分则提供了各种高级主题来展示可以使用Python做些什么，包括正则表达式、网络编程、网络客户端编程、多线程编程、图形用户界面编程、Web编程、数据库编程、扩展Python 和一些其他材料。</p>
+</li>
+<li><p>Python高级编程 7.6分《Python高级编程》针对具备一定Python基础并希望通过在项目中应用最佳实践和新的开发技术来提升自己的Python开发人员。</p>
+</li>
+<li><p>Python数据结构与算法 </p>
+</li>
+<li><p>3分主要是介绍了如何使用Python实现常用的一些数据结构,例如堆栈、队列、二叉树等等。</p>
+</li>
+<li><p>利用Python进行数据分析 </p>
+</li>
+<li><p>5分从pandas库的数据分析工具开始利用高性能工具对数据进行加载、清理、转换、合并以及重塑；利用matpIotlib创建散点图以及静态或交互式的可视化结果；利用pandas的groupby功能对数据集进行切片、切块和汇总操作；处理各种各样的时间序列数据。<br>介绍几个可以下载编程电子书籍的网站。</p>
+</li>
+<li><p>Github<br>Github上编程书资源很多，你可以根据类型和语言去搜索。推荐几个热门的：</p>
+</li>
+</ol>
+<p>free-programming-books-zh_CN：58K 星的GitHub，编程语言、WEB、函数、大数据、操作系统、在线课程、数据库相关书籍应有尽有，共有几百本。</p>
+<p>Go语言高级编程：涵盖CGO，Go汇编语言，RPC实现，Protobuf插件实现，Web框架实现，分布式系统等高阶主题。</p>
+<p>经典编程书籍大全：100+ 经典技术书籍。</p>
+<ol start="2">
+<li>WOW! eBook<br>可以下载英文编程书的PDF版本。</li>
+</ol>
+<ol start="3">
+<li>摩鸠搜书<br>格式多种多样的中文书，有mobi格式、pdf格式、word格式、txt格式等。可以无限下载，无需注册登录。</li>
+</ol>
+<ol start="4">
+<li>图灵社区<br>种类丰富，包含Python、JavaScript、机器学习、Java、算法、数学、C语言、 Linux等。有些电子可以在线阅读，有些可以免费下载。</li>
+</ol>
+<p>5.W3Cschool<br>你可以找到你所需要的所有的网站建设教程，是免费的，从基础的 HTML 到 CSS，乃至进阶的XML、SQL、JS、PHP 、<a href="http://ASP.NET都有。" target="_blank" rel="noopener">http://ASP.NET都有。</a></p>
+<ol start="6">
+<li>计算机书籍控<br>包含许多优秀的计算机书籍下载。无论是英文原版还是中文这里都有。</li>
+</ol>
+<ol start="7">
+<li>图书馆创世纪</li>
+</ol>
+<p>有了这几个网站，你就拥有了丰富的计算机学习资源库。不过，一上来就啃书是比较痛苦的，看书最好配合课程一起学。</p>
+<p>介绍几个优质的编程学习网站：</p>
+<p>Coursera<br>Coursera是大型公开在线课程项目，由美国斯坦福大学两名计算机科学教授创办。你可以在上面学到大量计算机理论和编程知识，部分课程有中文字幕哦~</p>
+<p>九章算法<br>开设包括Java、Python、大数据、全栈开发、系统设计等20+门课程，课程很实用，非常适合求职找工作的朋友，不少学员拿到了Facebook，Amazon，Google等大厂offer。</p>
+<p>九章算法的《如何在一个月内攻破算法面试》非常值得一听，理清思路节省65%准备时间。</p>
+<p>中国大学MOOC<br>有很多高校的精品课程，比如浙江大学《数据结构》、北京大学《Python语言基础与应用》、武汉大学《人工智能》，你可以多多挖掘。</p>
+<p>————————————————</p>
+
+        
+      </div>
+      
+      
+      
+    </div>
+    
+    
+    
+  </div>
+
+
+          </div>
+          
+
+
+          
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+      <div id="sidebar-dimmer"></div>
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+
+      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <img class="site-author-image" itemprop="image"
+                src="/images/avatar.png"
+                alt="晴天" />
+            
+              <p class="site-author-name" itemprop="name">晴天</p>
+              <p class="site-description motion-element" itemprop="description">每一次的相遇，都是我对你的表白</p>
+          </div>
+
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/archives/%7C%7Carchive">
+              
+                  <span class="site-state-item-count">5</span>
+                  <span class="site-state-item-name">日志</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-categories">
+                <a href="/categories/index.html">
+                  <span class="site-state-item-count">5</span>
+                  <span class="site-state-item-name">分类</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                <a href="/tags/index.html">
+                  <span class="site-state-item-count">9</span>
+                  <span class="site-state-item-name">标签</span>
+                </a>
+              </div>
+            
+
+          </nav>
+
+          
+            <div class="feed-link motion-element">
+              <a href="/atom.xml" rel="alternate">
+                <i class="fa fa-rss"></i>
+                RSS
+              </a>
+            </div>
+          
+
+          
+            <div class="links-of-author motion-element">
+                
+                  <span class="links-of-author-item">
+                    <a href="https://github.com/fakermama" target="_blank" title="GitHub">
+                      
+                        <i class="fa fa-fw fa-github"></i>GitHub</a>
+                  </span>
+                
+                  <span class="links-of-author-item">
+                    <a href="mailto:w516315461@gmail.com" target="_blank" title="E-Mail">
+                      
+                        <i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+                  </span>
+                
+                  <span class="links-of-author-item">
+                    <a href="tencent://AddContact/?fromId=45&fromSubId=1&subcmd=all&uin=516315461&website=www.oicqzone.com" target="_blank" title="QQ">
+                      
+                        <i class="fa fa-fw fa-qq"></i>QQ</a>
+                  </span>
+                
+            </div>
+          
+
+          
+          
+
+          
+          
+            <div class="links-of-blogroll motion-element links-of-blogroll-inline">
+              <div class="links-of-blogroll-title">
+                <i class="fa  fa-fw fa-link"></i>
+                友情博客
+              </div>
+              <ul class="links-of-blogroll-list">
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="https://44i.im/" title="军火库" target="_blank">军火库</a>
+                  </li>
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="https://ssr.tools/" title="SS中文网" target="_blank">SS中文网</a>
+                  </li>
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="https://www.v2rayssr.com/" title="V2ray" target="_blank">V2ray</a>
+                  </li>
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="https://www.liaoxuefeng.com/" title="廖雪峰" target="_blank">廖雪峰</a>
+                  </li>
+                
+              </ul>
+            </div>
+          
+          
+      <div class="links-of-blogroll motion-element links-of-blogroll-block">
+        <div class="links-of-blogroll-title">
+          <i class="fa fa-history fa-" aria-hidden="true"></i>
+          近期文章
+        </div>
+        <ul class="links-of-blogroll-list">
+          
+          
+            <li class='my-links-of-blogroll-li'>
+              <a href="/2020/03/06/7f1ae6d2.html" title="Java" target="">Java</a>
+            </li>
+          
+            <li class='my-links-of-blogroll-li'>
+              <a href="/2020/02/26/6d41969d.html" title="易语言学习" target="">易语言学习</a>
+            </li>
+          
+            <li class='my-links-of-blogroll-li'>
+              <a href="/2020/02/22/e779acda.html" title="Next主题美化精华篇" target="">Next主题美化精华篇</a>
+            </li>
+          
+            <li class='my-links-of-blogroll-li'>
+              <a href="/2020/02/21/178c0d2c.html" title="Hexo搭建博客" target="">Hexo搭建博客</a>
+            </li>
+          
+            <li class='my-links-of-blogroll-li'>
+              <a href="/2020/02/19/472003d.html" title="十分钟学会Markdown写博客" target="">十分钟学会Markdown写博客</a>
+            </li>
+          
+        </ul>
+      </div>
+  
+
+<!-- CloudCalendar -->
+<div class="widget-wrap" style="width: 90%;margin-left: auto;margin-right: auto; opacity: 0.97;">
+  <div class="widget" id="CloudCalendar"></div>
+</div>
+          
+        </div>
+      </section>
+
+      
+      
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2020</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">晴天</span>
+
+  
+</div>
+
+
+
+
+
+
+
+ <div class="BbeiAn-info" style="color:#808080">
+     鄂ICP备 -
+      <a target="_blank" href="http://www.miitbeian.gov.cn/" style="color:#808080;"  rel="nofollow">18025394</a> <!--a标签中增加nofollow属性，避免爬虫出站。-->| 
+      <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=42090202000295" style="text-decoration:none;color:#808080;padding-left:30px;background:url(https://s1.ax1x.com/2018/09/29/ilmwIH.png) no-repeat left center" rel="nofollow">鄂公网安备 42090202000295</a>    <!--这里将图标作为了背景，以使得能和后面的文字在同一行-->
+
+        
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+          <span id="scrollpercent"><span>0</span>%</span>
+        
+      </div>
+    
+
+    
+      <div id="needsharebutton-float">
+        <span class="btn">
+          <i class="fa fa-share-alt" aria-hidden="true"></i>
+        </span>
+      </div>
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/jquery@2.1.3/dist/jquery.min.js"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/canvas-nest/canvas-nest.min.js"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
+
+
+
+  
+  
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  <script type="text/javascript">
+    // Popup Window;
+    var isfetched = false;
+    var isXml = true;
+    // Search DB path;
+    var search_path = "search.xml";
+    if (search_path.length === 0) {
+      search_path = "search.xml";
+    } else if (/json$/i.test(search_path)) {
+      isXml = false;
+    }
+    var path = "/" + search_path;
+    // monitor main search box;
+
+    var onPopupClose = function (e) {
+      $('.popup').hide();
+      $('#local-search-input').val('');
+      $('.search-result-list').remove();
+      $('#no-result').remove();
+      $(".local-search-pop-overlay").remove();
+      $('body').css('overflow', '');
+    }
+
+    function proceedsearch() {
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay"></div>')
+        .css('overflow', 'hidden');
+      $('.search-popup-overlay').click(onPopupClose);
+      $('.popup').toggle();
+      var $localSearchInput = $('#local-search-input');
+      $localSearchInput.attr("autocapitalize", "none");
+      $localSearchInput.attr("autocorrect", "off");
+      $localSearchInput.focus();
+    }
+
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+      'use strict';
+
+      // start loading animation
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay">' +
+          '<div id="search-loading-icon">' +
+          '<i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>' +
+          '</div>' +
+          '</div>')
+        .css('overflow', 'hidden');
+      $("#search-loading-icon").css('margin', '20% auto 0 auto').css('text-align', 'center');
+
+      $.ajax({
+        url: path,
+        dataType: isXml ? "xml" : "json",
+        async: true,
+        success: function(res) {
+          // get the contents from search data
+          isfetched = true;
+          $('.popup').detach().appendTo('.header-inner');
+          var datas = isXml ? $("entry", res).map(function() {
+            return {
+              title: $("title", this).text(),
+              content: $("content",this).text(),
+              url: $("url" , this).text()
+            };
+          }).get() : res;
+          var input = document.getElementById(search_id);
+          var resultContent = document.getElementById(content_id);
+          var inputEventFunction = function() {
+            var searchText = input.value.trim().toLowerCase();
+            var keywords = searchText.split(/[\s\-]+/);
+            if (keywords.length > 1) {
+              keywords.push(searchText);
+            }
+            var resultItems = [];
+            if (searchText.length > 0) {
+              // perform local searching
+              datas.forEach(function(data) {
+                var isMatch = false;
+                var hitCount = 0;
+                var searchTextCount = 0;
+                var title = data.title.trim();
+                var titleInLowerCase = title.toLowerCase();
+                var content = data.content.trim().replace(/<[^>]+>/g,"");
+                var contentInLowerCase = content.toLowerCase();
+                var articleUrl = decodeURIComponent(data.url);
+                var indexOfTitle = [];
+                var indexOfContent = [];
+                // only match articles with not empty titles
+                if(title != '') {
+                  keywords.forEach(function(keyword) {
+                    function getIndexByWord(word, text, caseSensitive) {
+                      var wordLen = word.length;
+                      if (wordLen === 0) {
+                        return [];
+                      }
+                      var startPosition = 0, position = [], index = [];
+                      if (!caseSensitive) {
+                        text = text.toLowerCase();
+                        word = word.toLowerCase();
+                      }
+                      while ((position = text.indexOf(word, startPosition)) > -1) {
+                        index.push({position: position, word: word});
+                        startPosition = position + wordLen;
+                      }
+                      return index;
+                    }
+
+                    indexOfTitle = indexOfTitle.concat(getIndexByWord(keyword, titleInLowerCase, false));
+                    indexOfContent = indexOfContent.concat(getIndexByWord(keyword, contentInLowerCase, false));
+                  });
+                  if (indexOfTitle.length > 0 || indexOfContent.length > 0) {
+                    isMatch = true;
+                    hitCount = indexOfTitle.length + indexOfContent.length;
+                  }
+                }
+
+                // show search results
+
+                if (isMatch) {
+                  // sort index by position of keyword
+
+                  [indexOfTitle, indexOfContent].forEach(function (index) {
+                    index.sort(function (itemLeft, itemRight) {
+                      if (itemRight.position !== itemLeft.position) {
+                        return itemRight.position - itemLeft.position;
+                      } else {
+                        return itemLeft.word.length - itemRight.word.length;
+                      }
+                    });
+                  });
+
+                  // merge hits into slices
+
+                  function mergeIntoSlice(text, start, end, index) {
+                    var item = index[index.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    var hits = [];
+                    var searchTextCountInSlice = 0;
+                    while (position + word.length <= end && index.length != 0) {
+                      if (word === searchText) {
+                        searchTextCountInSlice++;
+                      }
+                      hits.push({position: position, length: word.length});
+                      var wordEnd = position + word.length;
+
+                      // move to next position of hit
+
+                      index.pop();
+                      while (index.length != 0) {
+                        item = index[index.length - 1];
+                        position = item.position;
+                        word = item.word;
+                        if (wordEnd > position) {
+                          index.pop();
+                        } else {
+                          break;
+                        }
+                      }
+                    }
+                    searchTextCount += searchTextCountInSlice;
+                    return {
+                      hits: hits,
+                      start: start,
+                      end: end,
+                      searchTextCount: searchTextCountInSlice
+                    };
+                  }
+
+                  var slicesOfTitle = [];
+                  if (indexOfTitle.length != 0) {
+                    slicesOfTitle.push(mergeIntoSlice(title, 0, title.length, indexOfTitle));
+                  }
+
+                  var slicesOfContent = [];
+                  while (indexOfContent.length != 0) {
+                    var item = indexOfContent[indexOfContent.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    // cut out 100 characters
+                    var start = position - 20;
+                    var end = position + 80;
+                    if(start < 0){
+                      start = 0;
+                    }
+                    if (end < position + word.length) {
+                      end = position + word.length;
+                    }
+                    if(end > content.length){
+                      end = content.length;
+                    }
+                    slicesOfContent.push(mergeIntoSlice(content, start, end, indexOfContent));
+                  }
+
+                  // sort slices in content by search text's count and hits' count
+
+                  slicesOfContent.sort(function (sliceLeft, sliceRight) {
+                    if (sliceLeft.searchTextCount !== sliceRight.searchTextCount) {
+                      return sliceRight.searchTextCount - sliceLeft.searchTextCount;
+                    } else if (sliceLeft.hits.length !== sliceRight.hits.length) {
+                      return sliceRight.hits.length - sliceLeft.hits.length;
+                    } else {
+                      return sliceLeft.start - sliceRight.start;
+                    }
+                  });
+
+                  // select top N slices in content
+
+                  var upperBound = parseInt('1');
+                  if (upperBound >= 0) {
+                    slicesOfContent = slicesOfContent.slice(0, upperBound);
+                  }
+
+                  // highlight title and content
+
+                  function highlightKeyword(text, slice) {
+                    var result = '';
+                    var prevEnd = slice.start;
+                    slice.hits.forEach(function (hit) {
+                      result += text.substring(prevEnd, hit.position);
+                      var end = hit.position + hit.length;
+                      result += '<b class="search-keyword">' + text.substring(hit.position, end) + '</b>';
+                      prevEnd = end;
+                    });
+                    result += text.substring(prevEnd, slice.end);
+                    return result;
+                  }
+
+                  var resultItem = '';
+
+                  if (slicesOfTitle.length != 0) {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</a>";
+                  } else {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + title + "</a>";
+                  }
+
+                  slicesOfContent.forEach(function (slice) {
+                    resultItem += "<a href='" + articleUrl + "'>" +
+                      "<p class=\"search-result\">" + highlightKeyword(content, slice) +
+                      "...</p>" + "</a>";
+                  });
+
+                  resultItem += "</li>";
+                  resultItems.push({
+                    item: resultItem,
+                    searchTextCount: searchTextCount,
+                    hitCount: hitCount,
+                    id: resultItems.length
+                  });
+                }
+              })
+            };
+            if (keywords.length === 1 && keywords[0] === "") {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>'
+            } else if (resultItems.length === 0) {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>'
+            } else {
+              resultItems.sort(function (resultLeft, resultRight) {
+                if (resultLeft.searchTextCount !== resultRight.searchTextCount) {
+                  return resultRight.searchTextCount - resultLeft.searchTextCount;
+                } else if (resultLeft.hitCount !== resultRight.hitCount) {
+                  return resultRight.hitCount - resultLeft.hitCount;
+                } else {
+                  return resultRight.id - resultLeft.id;
+                }
+              });
+              var searchResultList = '<ul class=\"search-result-list\">';
+              resultItems.forEach(function (result) {
+                searchResultList += result.item;
+              })
+              searchResultList += "</ul>";
+              resultContent.innerHTML = searchResultList;
+            }
+          }
+
+          if ('auto' === 'auto') {
+            input.addEventListener('input', inputEventFunction);
+          } else {
+            $('.search-icon').click(inputEventFunction);
+            input.addEventListener('keypress', function (event) {
+              if (event.keyCode === 13) {
+                inputEventFunction();
+              }
+            });
+          }
+
+          // remove loading animation
+          $(".local-search-pop-overlay").remove();
+          $('body').css('overflow', '');
+
+          proceedsearch();
+        }
+      });
+    }
+
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched === false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+
+    $('.popup-btn-close').click(onPopupClose);
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+    $(document).on('keyup', function (event) {
+      var shouldDismissSearchPopup = event.which === 27 &&
+        $('.search-popup').is(':visible');
+      if (shouldDismissSearchPopup) {
+        onPopupClose();
+      }
+    });
+  </script>
+
+
+
+
+
+  
+
+  
+  <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.4.js"></script>
+  <script>AV.initialize("VUGfI2v21oRU8JHnE5bsPtaT-gzGzoHsz", "xLqvtAtT3vHGasciqq2cOHK3");</script>
+  <script>
+    function showTime(Counter) {
+      var query = new AV.Query(Counter);
+      var entries = [];
+      var $visitors = $(".leancloud_visitors");
+
+      $visitors.each(function () {
+        entries.push( $(this).attr("id").trim() );
+      });
+
+      query.containedIn('url', entries);
+      query.find()
+        .done(function (results) {
+          var COUNT_CONTAINER_REF = '.leancloud-visitors-count';
+
+          if (results.length === 0) {
+            $visitors.find(COUNT_CONTAINER_REF).text(0);
+            return;
+          }
+
+          for (var i = 0; i < results.length; i++) {
+            var item = results[i];
+            var url = item.get('url');
+            var time = item.get('time');
+            var element = document.getElementById(url);
+
+            $(element).find(COUNT_CONTAINER_REF).text(time);
+          }
+          for(var i = 0; i < entries.length; i++) {
+            var url = entries[i];
+            var element = document.getElementById(url);
+            var countSpan = $(element).find(COUNT_CONTAINER_REF);
+            if( countSpan.text() == '') {
+              countSpan.text(0);
+            }
+          }
+        })
+        .fail(function (object, error) {
+          console.log("Error: " + error.code + " " + error.message);
+        });
+    }
+
+    function addCount(Counter) {
+      var $visitors = $(".leancloud_visitors");
+      var url = $visitors.attr('id').trim();
+      var title = $visitors.attr('data-flag-title').trim();
+      var query = new AV.Query(Counter);
+
+      query.equalTo("url", url);
+      query.find({
+        success: function(results) {
+          if (results.length > 0) {
+            var counter = results[0];
+            counter.fetchWhenSave(true);
+            counter.increment("time");
+            counter.save(null, {
+              success: function(counter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(counter.get('time'));
+              },
+              error: function(counter, error) {
+                console.log('Failed to save Visitor num, with error message: ' + error.message);
+              }
+            });
+          } else {
+            var newcounter = new Counter();
+            /* Set ACL */
+            var acl = new AV.ACL();
+            acl.setPublicReadAccess(true);
+            acl.setPublicWriteAccess(true);
+            newcounter.setACL(acl);
+            /* End Set ACL */
+            newcounter.set("title", title);
+            newcounter.set("url", url);
+            newcounter.set("time", 1);
+            newcounter.save(null, {
+              success: function(newcounter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(newcounter.get('time'));
+              },
+              error: function(newcounter, error) {
+                console.log('Failed to create');
+              }
+            });
+          }
+        },
+        error: function(error) {
+          console.log('Error:' + error.code + " " + error.message);
+        }
+      });
+    }
+
+    $(function() {
+      var Counter = AV.Object.extend("Counter");
+      if ($('.leancloud_visitors').length == 1) {
+        addCount(Counter);
+      } else if ($('.post-title-link').length > 1) {
+        showTime(Counter);
+      }
+    });
+  </script>
+
+
+
+  
+
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="/lib/needsharebutton/needsharebutton.css">
+
+  
+  
+  <script src="/lib/needsharebutton/needsharebutton.js"></script>
+
+  <script>
+    
+    
+      flOptions = {};
+      
+          flOptions.iconStyle = "box";
+      
+          flOptions.boxForm = "horizontal";
+      
+          flOptions.position = "middleRight";
+      
+          flOptions.networks = "Weibo,Wechat,Douban,QQZone,Twitter,Facebook";
+      
+      new needShareButton('#needsharebutton-float', flOptions);
+    
+  </script>
+
+  
+
+  
+
+  
+  <script type="text/javascript" src="/js/src/js.cookie.js?v=5.1.4"></script>
+  <script type="text/javascript" src="/js/src/scroll-cookie.js?v=5.1.4"></script>
+
+
+  
+
+  
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title></title>
+	<link rel="stylesheet" href="/static/css/player.css">
+</head>
+
+<div id="QPlayer">
+	<div id="pContent">
+		<div id="player">
+			<span class="cover"></span>
+			<div class="ctrl">
+				<div class="musicTag marquee">
+					<strong>Title</strong>
+					 <span> - </span>
+					<span class="artist">Artist</span>
+				</div>
+				<div class="progress">
+					<div class="timer left">0:00</div>
+					<div class="contr">
+						<div class="rewind icon"></div>
+						<div class="playback icon"></div>
+						<div class="fastforward icon"></div>
+					</div>
+					<div class="right">
+						<div class="liebiao icon"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="ssBtn">
+				<div class="adf"></div>
+		</div>
+	</div>
+	<ol id="playlist"></ol>
+</div>
+<script src="//cdn.bootcss.com/jQuery.Marquee/1.3.94/jquery.marquee.min.js"></script>
+<script>
+  var playlist = [];
+  
+  playlist.push({title:'星星',artist:'张杰',mp3:'http://music.163.com/song/media/outer/url?id=1399004693.mp3',cover:'https://s1.ax1x.com/2020/03/13/8nJ9GF.jpg'})
+  
+  playlist.push({title:'这就是爱吗',artist:'十豆',mp3:'http://music.163.com/song/media/outer/url?id=1412242872.mp3',cover:'https://s1.ax1x.com/2020/03/13/8nGz5T.jpg'})
+  
+  playlist.push({title:'Alone',artist:'Alan Walker / Noonie Bao',mp3:'http://music.163.com/song/media/outer/url?id=444269135.mp3',cover:'https://s1.ax1x.com/2020/03/13/8nGvV0.jpg'})
+  
+  playlist.push({title:'世间美好与你环环相扣',artist:'柏松',mp3:'http://music.163.com/song/media/outer/url?id=1363948882.mp3',cover:'https://s1.ax1x.com/2020/03/13/8nJpPU.jpg'})
+  
+  playlist.push({title:'飞',artist:'王恩信Est / 二胖u',mp3:'http://music.163.com/song/media/outer/url?id=1386259535.mp3',cover:'https://s1.ax1x.com/2020/03/13/8nJC24.jpg'})
+  
+  var isRotate = true;
+  var autoplay = false;
+</script>
+<script src="/static/js/player.js"></script>
+<script>
+  function bgChange(){
+	var lis= $('.lib');
+	for(var i=0; i<lis.length; i+=2)
+	lis[i].style.background = 'rgba(246, 246, 246, 0.5)';
+  }
+  window.onload = bgChange;
+</script>
+
+</body>
+</html>
+<a href="https://github.com/fakermama" target="_blank" rel="noopener" class="github-corner" aria-label="View source on GitHub"><svg width="80" height="80" viewBox="0 0 250 250" style="fill:#151513; color:#fff; position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
+<!-- 页面点击小红心 -->
+<script type="text/javascript" src="/js/src/clicklove.js"></script>
+<!-- calendar widget -->
+
+
+
+<!--单击显示文字-->
+<script type="text/javascript" src="/js/click_show_text.js"></script>
